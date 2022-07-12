@@ -13,6 +13,8 @@
 		DEB4E9B0287C5ECB00054E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB4E9AE287C5ECB00054E16 /* Main.storyboard */; };
 		DEB4E9B2287C5ECC00054E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB4E9B1287C5ECC00054E16 /* Assets.xcassets */; };
 		DEB4E9B5287C5ECC00054E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB4E9B3287C5ECC00054E16 /* LaunchScreen.storyboard */; };
+		DEB4E9BD287D211A00054E16 /* SegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4E9BC287D211A00054E16 /* SegmentedViewController.swift */; };
+		DEB4E9C1287D527300054E16 /* practiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4E9C0287D527300054E16 /* practiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DEB4E9B1287C5ECC00054E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEB4E9B4287C5ECC00054E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEB4E9B6287C5ECC00054E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB4E9BC287D211A00054E16 /* SegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedViewController.swift; sourceTree = "<group>"; };
+		DEB4E9C0287D527300054E16 /* practiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				DEB4E9A8287C5ECB00054E16 /* AppDelegate.swift */,
 				DEB4E9AA287C5ECB00054E16 /* SceneDelegate.swift */,
 				DEB4E9AC287C5ECB00054E16 /* ViewController.swift */,
+				DEB4E9C0287D527300054E16 /* practiceViewController.swift */,
 				DEB4E9AE287C5ECB00054E16 /* Main.storyboard */,
+				DEB4E9BC287D211A00054E16 /* SegmentedViewController.swift */,
 				DEB4E9B1287C5ECC00054E16 /* Assets.xcassets */,
 				DEB4E9B3287C5ECC00054E16 /* LaunchScreen.storyboard */,
 				DEB4E9B6287C5ECC00054E16 /* Info.plist */,
@@ -141,6 +147,8 @@
 				DEB4E9AD287C5ECB00054E16 /* ViewController.swift in Sources */,
 				DEB4E9A9287C5ECB00054E16 /* AppDelegate.swift in Sources */,
 				DEB4E9AB287C5ECB00054E16 /* SceneDelegate.swift in Sources */,
+				DEB4E9C1287D527300054E16 /* practiceViewController.swift in Sources */,
+				DEB4E9BD287D211A00054E16 /* SegmentedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
