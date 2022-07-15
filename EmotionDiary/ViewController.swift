@@ -60,5 +60,13 @@ class ViewController: UIViewController {
         labelArray[sender.tag].text = "\(emotionArray[sender.tag]) \(emotionNumArray[sender.tag])"
     }
     
+    @IBAction func resetBtnClicked(_ sender: Any) {
+        emotionNumArray = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+        
+        for item in Range(0...8) {
+            labelArray[item].text = "\(emotionArray[item]) \(emotionNumArray[item])"
+        }
+    }
+    
 }
 
