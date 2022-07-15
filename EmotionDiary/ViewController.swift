@@ -48,18 +48,28 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // 저장된 데이터 불러오기
+        if UserDefaults.standard.array(forKey: "emotionNumArray") != nil {
+            let array: [Int] = UserDefaults.standard.array(forKey: "emotionNumArray") as? [Int] ?? []
+            emotionNumArray = array
+        } else {
+            
+        }
+        
         for item in Range(0...8) {
             labelArray[item].text = "\(emotionArray[item]) \(emotionNumArray[item])"
         }
     
     }
     
-    // MARK: 버튼 클릭 시 레이블 바꾸기
+    // MARK: 버튼 클릭 시 레이블 바꾸기, 데이터 저장
     @IBAction func emotionFirstButtonClicked(_ sender: UIButton) {
         emotionNumArray[sender.tag] += 1
         labelArray[sender.tag].text = "\(emotionArray[sender.tag]) \(emotionNumArray[sender.tag])"
+        UserDefaults.standard.set(emotionNumArray, forKey: "emotionNumArray")
     }
     
+    // MARK: 리셋 버튼
     @IBAction func resetBtnClicked(_ sender: Any) {
         emotionNumArray = [0, 0, 0, 0, 0, 0, 0, 0, 0]
         
